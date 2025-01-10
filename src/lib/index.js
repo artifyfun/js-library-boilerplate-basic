@@ -1,13 +1,3 @@
-import "./index.css";
 
-class MyLibrary {
-  constructor() {
-    console.log("Library constructor loaded");
-  }
-
-  myMethod = () => {
-    console.log("Library method fired");
-  };
-}
-
-export default MyLibrary;
+export { sncRum } from '@datadog/browser-rum'
+// export { sncLogs } from '@datadog/browser-logs'
