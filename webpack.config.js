@@ -64,6 +64,6 @@ module.exports = {
     new MiniCssExtractPlugin({
       filename: 'css/index.css'
     }),
-    new webpack.BannerPlugin(banner)
+    // new webpack.BannerPlugin(banner)
   ]
 };
